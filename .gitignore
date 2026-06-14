@@ -1,0 +1,18 @@
+﻿# 敏感信息
+.env
+*.token
+*secret*
+
+# 临时文件
+__pycache__/
+*.pyc
+
+# 爬下来的数据
+data/
+output/
+*.csv
+*.json
+
+# 系统文件
+.DS_Store
+Thumbs.db
