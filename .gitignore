@@ -1,18 +1,14 @@
-﻿# 敏感信息
-.env
-*.token
-*secret*
+# 大数据文件（不要提交到 git）
+*.csv
 
-# 临时文件
+# Python 缓存
 __pycache__/
 *.pyc
+*.pyo
+.env
+venv/
+.venv/
 
-# 爬下来的数据
-data/
-output/
-*.csv
-*.json
-
-# 系统文件
-.DS_Store
-Thumbs.db
+# IDE
+.vscode/
+.idea/
